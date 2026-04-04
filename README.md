@@ -1,5 +1,5 @@
 # Computational Chemistry with Python ⚛️🐍 #
-This repository is where I "dabble" with the invisible forces that hold the universe together—specifically, the chemical bonds in rocket propellants. I'm currently self-learning how to use Python to simulate molecular energy so I can understand why some fuels (like Hydrazine) are so much more "exciting" (and explosive) than others.
+This repository is where I "dabble" with the invisible forces that hold the universe together—specifically, the chemical bonds in rocket propellants. I'm currently self-learning how to use Python to simulate molecular energy so I can understand why some fuels (like Hydrazine) are so much more "exciting" (and energetic) than others.
 
 **🧪 What’s happening here?**
 
