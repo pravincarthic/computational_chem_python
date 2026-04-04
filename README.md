@@ -7,7 +7,7 @@ I’m moving away from just reading about chemistry in textbooks and trying to a
 Most people use Kaggle for Machine Learning, but I’ve been "repurposing" Kaggle’s free GPUs as a cloud-based supercomputer to run physics simulations. It is fun to get free GPU resources and simulation environment in Kaggle.
 
 Current Focus:
-- Potential Energy Surfaces (PES): Using the Hessian Matrix (from my NPTEL Multivariable Calculus studies) to find local minima and stable molecular geometries.
+- Potential Energy Surfaces (PES): Using the Hessian Matrix (from my Multivariable Calculus self-studies) to find local minima and stable molecular geometries.
 - Quantum ESPRESSO: Someone said this is good to simulate. I am still learning what is Density Functional Theory (DFT) calculation to "see" electron density.
 
 If we want to go to Mars or build better aircraft, we need to understand the chemistry of propulsion at an atomic level.
