@@ -1,0 +1,543 @@
+```
+temperature 298.1500 [K]
+pressure 101325.00 [Pa]
+Rotational constants [GHz] 0.39700 0.25992 0.18261
+Symmetry number 1
+Zero-point energy (ZPE) 0.09603 [Eh]   252126.513 [J/mol]
+                           tot       elec      trans        rot        vib
+Entropy [J/mol/K]       487.741      0.000    181.301    142.673    163.766
+Cv [J/mol/K]            226.224      0.000     12.472     12.472    201.281
+Cp [J/mol/K]            234.539      0.000     20.786     12.472    201.281
+Internal energy [J/mol]                      3718.434   3718.434 280144.683
+Internal energy [Eh]   -1304.28980  -1304.39933
+Enthalpy [J/mol]                             6197.391   3718.434 280144.683
+Enthalpy [Eh]          -1304.28885
+Gibbs free energy [J/mol]                  -47857.581 -38819.528 231317.729
+Gibbs free energy [Eh] -1304.34424
+
+```
+
+
+```
+==================================================
+HESSIAN / EIGENVALUE SUMMARY
+==================================================
+Shape of full Hessian: (72, 72)
+Smallest 20 eigenvalues:
+[-3.56950629e-02 -3.46109077e-02 -2.18472280e-02 -2.00304550e-02
+ -1.24518530e-02 -1.14115348e-02 -9.21992179e-03 -8.85542588e-03
+ -8.35671609e-03 -7.80942394e-03 -7.08782563e-03 -6.83752815e-03
+ -6.89983846e-04 -1.57495280e-04 -7.46125482e-07  3.59040738e-04
+  5.42398765e-04  1.60957054e-03  4.09904669e-03  4.39745015e-03]
+Largest 10 eigenvalues:
+[0.84000598 0.8451795  0.87235438 0.87296239 1.0229679  1.02727335
+ 1.11316354 1.12332092 1.30851936 1.3209646 ]
+Negative eigenvalues: 15
+Near-zero eigenvalues: 0
+Positive eigenvalues: 57
+==================================================
+SOFTEST MODE ATOMIC PARTICIPATION
+==================================================
+
+Mode 0  eigenvalue = -0.03569506
+Atom 21 N   amplitude = 0.553081
+Atom 23 N   amplitude = 0.543362
+Atom 20 N   amplitude = 0.372648
+Atom 22 N   amplitude = 0.369966
+Atom  5 N   amplitude = 0.177746
+Atom  4 N   amplitude = 0.145696
+Atom 11 N   amplitude = 0.099772
+Atom 18 N   amplitude = 0.099396
+Atom 16 N   amplitude = 0.098909
+Atom 10 N   amplitude = 0.097089
+
+Mode 1  eigenvalue = -0.03461091
+Atom 16 N   amplitude = 0.541884
+Atom 18 N   amplitude = 0.518003
+Atom 17 N   amplitude = 0.398569
+Atom 19 N   amplitude = 0.392056
+Atom  2 N   amplitude = 0.186946
+Atom  3 N   amplitude = 0.145923
+Atom 23 N   amplitude = 0.110625
+Atom 12 N   amplitude = 0.102707
+Atom 21 N   amplitude = 0.099134
+Atom 13 N   amplitude = 0.089563
+
+Mode 2  eigenvalue = -0.02184723
+Atom 11 N   amplitude = 0.400457
+Atom 22 N   amplitude = 0.352809
+Atom 20 N   amplitude = 0.300735
+Atom 12 N   amplitude = 0.300617
+Atom  6 N   amplitude = 0.250446
+Atom 17 N   amplitude = 0.245077
+Atom  1 N   amplitude = 0.239916
+Atom 19 N   amplitude = 0.237411
+Atom  4 N   amplitude = 0.224465
+Atom 23 N   amplitude = 0.208263
+
+Mode 3  eigenvalue = -0.02003046
+Atom 12 N   amplitude = 0.398930
+Atom 19 N   amplitude = 0.331398
+Atom 17 N   amplitude = 0.328380
+Atom 11 N   amplitude = 0.284205
+Atom 22 N   amplitude = 0.260313
+Atom  3 N   amplitude = 0.247830
+Atom 20 N   amplitude = 0.243674
+Atom 18 N   amplitude = 0.239014
+Atom  6 N   amplitude = 0.214970
+Atom 16 N   amplitude = 0.200048
+
+Mode 4  eigenvalue = -0.01245185
+Atom  9 N   amplitude = 0.635902
+Atom  6 N   amplitude = 0.398268
+Atom  7 N   amplitude = 0.365482
+Atom 10 N   amplitude = 0.254369
+Atom  5 N   amplitude = 0.242325
+Atom  4 N   amplitude = 0.199945
+Atom 11 N   amplitude = 0.172437
+Atom 14 N   amplitude = 0.168852
+Atom  0 N   amplitude = 0.130753
+Atom  8 N   amplitude = 0.127091
+```
+
+
+```
+TDDFT SUMMARY
+==================================================
+Excitation energies (eV):
+[1.73981475 2.00267128 2.16761779 2.20383348 2.67006016]
+
+Oscillator strengths:
+[0.00010846 0.00357562 0.00078566 0.00201598 0.0002217 ]
+
+```
+
+
+```
+==================================================
+1. MOLECULAR DIPOLE MOMENT
+==================================================
+Dipole moment(X, Y, Z, Debye): -0.16215,  0.40827,  0.06574
+
+==================================================
+2. MULLIKEN ATOMIC CHARGES
+==================================================
+ ** Mulliken pop  **
+pop of  0 N 1s            1.98793
+pop of  0 N 2s            1.08602
+pop of  0 N 3s            0.55958
+pop of  0 N 2px           0.86615
+pop of  0 N 2py           0.71416
+pop of  0 N 2pz           0.74522
+pop of  0 N 3px           0.38112
+pop of  0 N 3py           0.19294
+pop of  0 N 3pz           0.37984
+pop of  0 N 3dxy          0.01283
+pop of  0 N 3dyz          0.00823
+pop of  0 N 3dz^2         0.00899
+pop of  0 N 3dxz          0.00827
+pop of  0 N 3dx2-y2       0.01112
+pop of  1 N 1s            1.98762
+pop of  1 N 2s            1.08287
+pop of  1 N 3s            0.39907
+pop of  1 N 2px           0.74998
+pop of  1 N 2py           0.75957
+pop of  1 N 2pz           0.81532
+pop of  1 N 3px           0.45180
+pop of  1 N 3py           0.28677
+pop of  1 N 3pz           0.50642
+pop of  1 N 3dxy          0.01285
+pop of  1 N 3dyz          0.00861
+pop of  1 N 3dz^2         0.00552
+pop of  1 N 3dxz          0.00739
+pop of  1 N 3dx2-y2       0.01167
+pop of  2 N 1s            1.98796
+pop of  2 N 2s            1.09651
+pop of  2 N 3s            0.55016
+pop of  2 N 2px           0.85998
+pop of  2 N 2py           0.70646
+pop of  2 N 2pz           0.72481
+pop of  2 N 3px           0.40481
+pop of  2 N 3py           0.19719
+pop of  2 N 3pz           0.40090
+pop of  2 N 3dxy          0.01604
+pop of  2 N 3dyz          0.01001
+pop of  2 N 3dz^2         0.00633
+pop of  2 N 3dxz          0.00686
+pop of  2 N 3dx2-y2       0.00853
+pop of  3 N 1s            1.98781
+pop of  3 N 2s            1.08159
+pop of  3 N 3s            0.53914
+pop of  3 N 2px           0.73582
+pop of  3 N 2py           0.83524
+pop of  3 N 2pz           0.75702
+pop of  3 N 3px           0.23180
+pop of  3 N 3py           0.30913
+pop of  3 N 3pz           0.41598
+pop of  3 N 3dxy          0.00884
+pop of  3 N 3dyz          0.00918
+pop of  3 N 3dz^2         0.00562
+pop of  3 N 3dxz          0.00852
+pop of  3 N 3dx2-y2       0.01724
+pop of  4 N 1s            1.98791
+pop of  4 N 2s            1.08342
+pop of  4 N 3s            0.53015
+pop of  4 N 2px           0.72896
+pop of  4 N 2py           0.86975
+pop of  4 N 2pz           0.72926
+pop of  4 N 3px           0.18446
+pop of  4 N 3py           0.35640
+pop of  4 N 3pz           0.40524
+pop of  4 N 3dxy          0.01095
+pop of  4 N 3dyz          0.00798
+pop of  4 N 3dz^2         0.00706
+pop of  4 N 3dxz          0.00794
+pop of  4 N 3dx2-y2       0.01569
+pop of  5 N 1s            1.98812
+pop of  5 N 2s            1.09951
+pop of  5 N 3s            0.53650
+pop of  5 N 2px           0.88622
+pop of  5 N 2py           0.67392
+pop of  5 N 2pz           0.73028
+pop of  5 N 3px           0.39859
+pop of  5 N 3py           0.18714
+pop of  5 N 3pz           0.39961
+pop of  5 N 3dxy          0.01621
+pop of  5 N 3dyz          0.00909
+pop of  5 N 3dz^2         0.00695
+pop of  5 N 3dxz          0.00710
+pop of  5 N 3dx2-y2       0.00866
+pop of  6 N 1s            1.98772
+pop of  6 N 2s            1.08301
+pop of  6 N 3s            0.38278
+pop of  6 N 2px           0.69190
+pop of  6 N 2py           0.76592
+pop of  6 N 2pz           0.87012
+pop of  6 N 3px           0.41940
+pop of  6 N 3py           0.30143
+pop of  6 N 3pz           0.54116
+pop of  6 N 3dxy          0.01407
+pop of  6 N 3dyz          0.00802
+pop of  6 N 3dz^2         0.00523
+pop of  6 N 3dxz          0.00567
+pop of  6 N 3dx2-y2       0.01327
+pop of  7 N 1s            1.98799
+pop of  7 N 2s            1.08900
+pop of  7 N 3s            0.55448
+pop of  7 N 2px           0.90300
+pop of  7 N 2py           0.70320
+pop of  7 N 2pz           0.71689
+pop of  7 N 3px           0.36530
+pop of  7 N 3py           0.17907
+pop of  7 N 3pz           0.39458
+pop of  7 N 3dxy          0.01550
+pop of  7 N 3dyz          0.00856
+pop of  7 N 3dz^2         0.00737
+pop of  7 N 3dxz          0.00790
+pop of  7 N 3dx2-y2       0.01039
+pop of  8 N 1s            1.98848
+pop of  8 N 2s            1.11399
+pop of  8 N 3s            0.62336
+pop of  8 N 2px           0.65119
+pop of  8 N 2py           0.88188
+pop of  8 N 2pz           0.71912
+pop of  8 N 3px           0.19720
+pop of  8 N 3py           0.38665
+pop of  8 N 3pz           0.42594
+pop of  8 N 3dxy          0.01395
+pop of  8 N 3dyz          0.00795
+pop of  8 N 3dz^2         0.00673
+pop of  8 N 3dxz          0.00754
+pop of  8 N 3dx2-y2       0.01269
+pop of  9 N 1s            1.98805
+pop of  9 N 2s            1.08857
+pop of  9 N 3s            0.61243
+pop of  9 N 2px           0.78723
+pop of  9 N 2py           0.74009
+pop of  9 N 2pz           0.77958
+pop of  9 N 3px           0.29901
+pop of  9 N 3py           0.21125
+pop of  9 N 3pz           0.44459
+pop of  9 N 3dxy          0.00887
+pop of  9 N 3dyz          0.00949
+pop of  9 N 3dz^2         0.00588
+pop of  9 N 3dxz          0.00622
+pop of  9 N 3dx2-y2       0.01631
+pop of  10 N 1s           1.98723
+pop of  10 N 2s           1.06906
+pop of  10 N 3s           0.30417
+pop of  10 N 2px          0.75683
+pop of  10 N 2py          0.80990
+pop of  10 N 2pz          0.80939
+pop of  10 N 3px          0.38388
+pop of  10 N 3py          0.27961
+pop of  10 N 3pz          0.48438
+pop of  10 N 3dxy         0.01423
+pop of  10 N 3dyz         0.01245
+pop of  10 N 3dz^2        0.00611
+pop of  10 N 3dxz         0.01023
+pop of  10 N 3dx2-y2      0.01683
+pop of  11 N 1s           1.98763
+pop of  11 N 2s           1.07047
+pop of  11 N 3s           0.58832
+pop of  11 N 2px          0.81935
+pop of  11 N 2py          0.68229
+pop of  11 N 2pz          0.83201
+pop of  11 N 3px          0.32867
+pop of  11 N 3py          0.16446
+pop of  11 N 3pz          0.46312
+pop of  11 N 3dxy         0.01432
+pop of  11 N 3dyz         0.00722
+pop of  11 N 3dz^2        0.00550
+pop of  11 N 3dxz         0.00741
+pop of  11 N 3dx2-y2      0.01132
+pop of  12 N 1s           1.98782
+pop of  12 N 2s           1.07477
+pop of  12 N 3s           0.58962
+pop of  12 N 2px          0.83521
+pop of  12 N 2py          0.66488
+pop of  12 N 2pz          0.82964
+pop of  12 N 3px          0.33227
+pop of  12 N 3py          0.13970
+pop of  12 N 3pz          0.44421
+pop of  12 N 3dxy         0.01782
+pop of  12 N 3dyz         0.00776
+pop of  12 N 3dz^2        0.00528
+pop of  12 N 3dxz         0.00679
+pop of  12 N 3dx2-y2      0.00877
+pop of  13 N 1s           1.98721
+pop of  13 N 2s           1.06946
+pop of  13 N 3s           0.30582
+pop of  13 N 2px          0.77964
+pop of  13 N 2py          0.81450
+pop of  13 N 2pz          0.78243
+pop of  13 N 3px          0.42886
+pop of  13 N 3py          0.24188
+pop of  13 N 3pz          0.47378
+pop of  13 N 3dxy         0.01377
+pop of  13 N 3dyz         0.01545
+pop of  13 N 3dz^2        0.00547
+pop of  13 N 3dxz         0.00939
+pop of  13 N 3dx2-y2      0.01566
+pop of  14 N 1s           1.98807
+pop of  14 N 2s           1.08767
+pop of  14 N 3s           0.60939
+pop of  14 N 2px          0.78364
+pop of  14 N 2py          0.71131
+pop of  14 N 2pz          0.81327
+pop of  14 N 3px          0.34224
+pop of  14 N 3py          0.17887
+pop of  14 N 3pz          0.43462
+pop of  14 N 3dxy         0.00943
+pop of  14 N 3dyz         0.01081
+pop of  14 N 3dz^2        0.00631
+pop of  14 N 3dxz         0.00688
+pop of  14 N 3dx2-y2      0.01328
+pop of  15 N 1s           1.98847
+pop of  15 N 2s           1.11318
+pop of  15 N 3s           0.62264
+pop of  15 N 2px          0.65372
+pop of  15 N 2py          0.89544
+pop of  15 N 2pz          0.70337
+pop of  15 N 3px          0.24443
+pop of  15 N 3py          0.40741
+pop of  15 N 3pz          0.36034
+pop of  15 N 3dxy         0.01359
+pop of  15 N 3dyz         0.00992
+pop of  15 N 3dz^2        0.00848
+pop of  15 N 3dxz         0.00722
+pop of  15 N 3dx2-y2      0.00962
+pop of  16 N 1s           1.98845
+pop of  16 N 2s           1.11078
+pop of  16 N 3s           0.65156
+pop of  16 N 2px          0.80547
+pop of  16 N 2py          0.70542
+pop of  16 N 2pz          0.74190
+pop of  16 N 3px          0.34581
+pop of  16 N 3py          0.25306
+pop of  16 N 3pz          0.30233
+pop of  16 N 3dxy         0.01047
+pop of  16 N 3dyz         0.00661
+pop of  16 N 3dz^2        0.01205
+pop of  16 N 3dxz         0.01157
+pop of  16 N 3dx2-y2      0.00904
+pop of  17 N 1s           1.98749
+pop of  17 N 2s           1.09105
+pop of  17 N 3s           0.52085
+pop of  17 N 2px          0.83925
+pop of  17 N 2py          0.73135
+pop of  17 N 2pz          0.74525
+pop of  17 N 3px          0.44675
+pop of  17 N 3py          0.25104
+pop of  17 N 3pz          0.42791
+pop of  17 N 3dxy         0.01464
+pop of  17 N 3dyz         0.01120
+pop of  17 N 3dz^2        0.01169
+pop of  17 N 3dxz         0.00723
+pop of  17 N 3dx2-y2      0.00975
+pop of  18 N 1s           1.98756
+pop of  18 N 2s           1.08894
+pop of  18 N 3s           0.48162
+pop of  18 N 2px          0.78952
+pop of  18 N 2py          0.79133
+pop of  18 N 2pz          0.74348
+pop of  18 N 3px          0.33470
+pop of  18 N 3py          0.39953
+pop of  18 N 3pz          0.42332
+pop of  18 N 3dxy         0.01085
+pop of  18 N 3dyz         0.00592
+pop of  18 N 3dz^2        0.01171
+pop of  18 N 3dxz         0.00985
+pop of  18 N 3dx2-y2      0.01385
+pop of  19 N 1s           1.98856
+pop of  19 N 2s           1.11617
+pop of  19 N 3s           0.67365
+pop of  19 N 2px          0.69007
+pop of  19 N 2py          0.78010
+pop of  19 N 2pz          0.76585
+pop of  19 N 3px          0.29739
+pop of  19 N 3py          0.28906
+pop of  19 N 3pz          0.32206
+pop of  19 N 3dxy         0.01016
+pop of  19 N 3dyz         0.01027
+pop of  19 N 3dz^2        0.01238
+pop of  19 N 3dxz         0.00733
+pop of  19 N 3dx2-y2      0.00850
+pop of  20 N 1s           1.98756
+pop of  20 N 2s           1.09062
+pop of  20 N 3s           0.53449
+pop of  20 N 2px          0.73347
+pop of  20 N 2py          0.74208
+pop of  20 N 2pz          0.83454
+pop of  20 N 3px          0.35161
+pop of  20 N 3py          0.25765
+pop of  20 N 3pz          0.51276
+pop of  20 N 3dxy         0.01348
+pop of  20 N 3dyz         0.01145
+pop of  20 N 3dz^2        0.00721
+pop of  20 N 3dxz         0.01027
+pop of  20 N 3dx2-y2      0.01137
+pop of  21 N 1s           1.98833
+pop of  21 N 2s           1.10854
+pop of  21 N 3s           0.66275
+pop of  21 N 2px          0.88467
+pop of  21 N 2py          0.68806
+pop of  21 N 2pz          0.67881
+pop of  21 N 3px          0.32974
+pop of  21 N 3py          0.26735
+pop of  21 N 3pz          0.32655
+pop of  21 N 3dxy         0.01335
+pop of  21 N 3dyz         0.00520
+pop of  21 N 3dz^2        0.00896
+pop of  21 N 3dxz         0.01230
+pop of  21 N 3dx2-y2      0.00948
+pop of  22 N 1s           1.98853
+pop of  22 N 2s           1.11616
+pop of  22 N 3s           0.67333
+pop of  22 N 2px          0.67305
+pop of  22 N 2py          0.81251
+pop of  22 N 2pz          0.75177
+pop of  22 N 3px          0.20043
+pop of  22 N 3py          0.31117
+pop of  22 N 3pz          0.38049
+pop of  22 N 3dxy         0.01505
+pop of  22 N 3dyz         0.00884
+pop of  22 N 3dz^2        0.00937
+pop of  22 N 3dxz         0.00858
+pop of  22 N 3dx2-y2      0.00716
+pop of  23 N 1s           1.98755
+pop of  23 N 2s           1.08920
+pop of  23 N 3s           0.47646
+pop of  23 N 2px          0.73152
+pop of  23 N 2py          0.80812
+pop of  23 N 2pz          0.78804
+pop of  23 N 3px          0.24669
+pop of  23 N 3py          0.43199
+pop of  23 N 3pz          0.47962
+pop of  23 N 3dxy         0.01408
+pop of  23 N 3dyz         0.00437
+pop of  23 N 3dz^2        0.00840
+pop of  23 N 3dxz         0.01226
+pop of  23 N 3dx2-y2      0.01347
+ ** Mulliken atomic charges  **
+charge of    0N =      0.03761
+charge of    1N =     -0.08547
+charge of    2N =      0.02345
+charge of    3N =      0.05707
+charge of    4N =      0.07483
+charge of    5N =      0.05211
+charge of    6N =     -0.08971
+charge of    7N =      0.05679
+charge of    8N =     -0.03667
+charge of    9N =      0.00243
+charge of   10N =      0.05569
+charge of   11N =      0.01789
+charge of   12N =      0.05547
+charge of   13N =      0.05668
+charge of   14N =      0.00422
+charge of   15N =     -0.03781
+charge of   16N =      0.04549
+charge of   17N =     -0.09544
+charge of   18N =     -0.09218
+charge of   19N =      0.02844
+charge of   20N =     -0.09857
+charge of   21N =      0.01592
+charge of   22N =      0.04356
+charge of   23N =     -0.09178
+
+Atom | Charge
+--------------------
+ 0 N  |  0.0376
+ 1 N  | -0.0855
+ 2 N  |  0.0234
+ 3 N  |  0.0571
+ 4 N  |  0.0748
+ 5 N  |  0.0521
+ 6 N  | -0.0897
+ 7 N  |  0.0568
+ 8 N  | -0.0367
+ 9 N  |  0.0024
+10 N  |  0.0557
+11 N  |  0.0179
+12 N  |  0.0555
+13 N  |  0.0567
+14 N  |  0.0042
+15 N  | -0.0378
+16 N  |  0.0455
+17 N  | -0.0954
+18 N  | -0.0922
+19 N  |  0.0284
+20 N  | -0.0986
+21 N  |  0.0159
+22 N  |  0.0436
+23 N  | -0.0918
+```
+
+
+```
+1 N      3.411832130000  -3.045419710000   0.878290570000 AA    6.447428308691  -5.755009186252   1.659728635088 Bohr
+   2 N      3.888380880000  -1.862309290000   0.614300970000 AA    7.347974931195  -3.519254517333   1.160860591355 Bohr
+   3 N      3.090140130000  -0.921750860000   0.019331150000 AA    5.839518532228  -1.741856680482   0.036530579173 Bohr
+   4 N      3.582376420000   0.202084750000  -0.250725920000 AA    6.769710308900   0.381884831451  -0.473803321130 Bohr
+   5 N     -0.127221170000   1.430689010000   1.792892400000 AA   -0.240413168547   2.703610398325   3.388075606814 Bohr
+   6 N     -0.739952440000   0.430068630000   2.235425430000 AA   -1.398307456804   0.812711925467   4.224341834588 Bohr
+   7 N     -0.026481410000  -0.672447300000   2.620149150000 AA   -0.050042612292  -1.270741230203   4.951364299012 Bohr
+   8 N     -0.637722000000  -1.754567450000   3.007930110000 AA   -1.205119923610  -3.315651947577   5.684164109733 Bohr
+   9 N      0.136550400000  -2.680051450000   3.455314240000 AA    0.258042858200  -5.064563240243   6.529597587910 Bohr
+  10 N      1.448056680000  -2.276119650000   3.551662110000 AA    2.736430538047  -4.301242765241   6.711668674895 Bohr
+  11 N      1.598090430000  -1.081439250000   3.163573780000 AA    3.019953234988  -2.043624002855   5.978288019055 Bohr
+  12 N      2.614167100000  -0.341209650000   2.939928270000 AA    4.940059862848  -0.644792789559   5.555659256166 Bohr
+  13 N      6.145519010000  -0.963271570000   1.760008820000 AA   11.613347822208  -1.820319450880   3.325934646619 Bohr
+  14 N      5.293131920000  -1.906194900000   1.699292750000 AA   10.002569669993  -3.602186301043   3.211197902959 Bohr
+  15 N      5.263868100000  -3.106573430000   2.098473180000 AA    9.947269064835  -5.870572968551   3.965539589945 Bohr
+  16 N      4.169285100000  -3.781860730000   1.615330540000 AA    7.878806974230  -7.146681020948   3.052532321246 Bohr
+  17 N      6.161578360000   1.375884990000   1.179268750000 AA   11.643695595447   2.600045810000   2.228494964758 Bohr
+  18 N      5.489387770000   0.180232230000   1.458816770000 AA   10.373439476837   0.340589553520   2.756764161223 Bohr
+  19 N      4.866492050000   0.387180070000   0.054905170000 AA    9.196337161873   0.731664293190   0.103755734123 Bohr
+  20 N      5.457445960000   1.678331800000   0.156138280000 AA   10.313078204014   3.171587448148   0.295058586761 Bohr
+  21 N      2.163035930000   0.931403930000   2.844288800000 AA    4.087545505294   1.760098339044   5.374926851168 Bohr
+  22 N      2.967520770000   1.955172150000   2.312658520000 AA    5.607801524258   3.694739889877   4.370291222442 Bohr
+  23 N      2.059302210000   2.441610180000   1.552509550000 AA    3.891517184612   4.613974543150   2.933817855272 Bohr
+  24 N      1.197747040000   1.328244400000   1.694072478228 AA    2.263413872108   2.510018142487   3.201333019014 Bohr
+
+```
