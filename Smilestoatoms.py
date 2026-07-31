@@ -91,6 +91,6 @@ if __name__ == "__main__":
     # You can safely swap this string out for single molecules or multi-fragment salts (e.g., "C.C")
     user_smiles = "N1([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N2N([N+]([O-])=O)N([N+]([O-])=O)[C@@]34[N@@]5[N@]6[N@@]7[N@@]([N@]3[N@]57)[C@@]46N([N+]([O-])=O)N([N+]([O-])=O)N2N([N+]([O-])=O)N([N+]([O-])=O)N1[N+]([O-])=O"
     process_smiles(user_smiles)
-#os.system("xtb compound.xyz --opt --gfn 2 --verbose")
+os.system("xtb compound.xyz --opt --gfn 2 --verbose")
 #os.system("xtb xtbopt.xyz --opt --gfn 2 --verbose --cycles 500")
 # Optional: os.system("xtb compound.xyz --opt --gfn 2 --verbose") followed by os.system("xtb xtbopt.xyz --opt --gfn 2 --verbose --cycles 500") to run the optimization immediately after generation.
