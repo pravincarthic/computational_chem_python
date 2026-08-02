@@ -445,4 +445,3 @@ Then: ΔH_decomp = Σ(E_products) - E(monopropellant)
 Most negative ΔH = most exothermic = thermodynamically favored.
 
 EOF
-cat /home/claude/decomposition_chemistry_guide.md
