@@ -1,0 +1,29 @@
+Molecule 10:
+Extended SMILES: N1([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N2N([N+]([O-])=O)N([N+]([O-])=O)[C@@]34[N@@]5[N@]6[N@@]7[N@@]([N@]3[N@]57)[C@@]46N([N+]([O-])=O)N([N+]([O-])=O)N2N([N+]([O-])=O)N([N+]([O-])=O)N1[N+]([O-])=O
+
+Molecule 9:
+Extended SMILES: [N@@]12[N@@]3[N@]4[N@@]5[N@@]([C@@]1([C@@]1([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)[N@@]([N+]([O-])=O)[N@]1[N+]([O-])=O)[N@]35)[N@@]24
+
+Molecule 8:
+Extended SMILES: C1([N+]([O-])=O)([N+]([O-])=O)N([N+]([O-])=O)N([N+]([O-])=O)N2N3N([N+]([O-])=O)N(F)N([N+]([O-])=O)N(F)C4(C#N)C5(C#N)N([N+]([O-])=O)N([N+]([O-])=O)N(F)N5N4C3(C#N)N2N(F)N1[N+]([O-])=O
+
+Molecule 7:
+Extended SMILES: N12C([N+]([O-])=O)([N+]([O-])=O)N1N([N+]([O-])=O)N1N3N(F)N4N5C([N+]([O-])=O)([N+]([O-])=O)N5N(F)C4(N(F)F)N(F)N3N([N+]([O-])=O)C1([N+]([O-])=O)N2[N+]([O-])=O
+
+Molecule 6:
+Extended SMILES: N12N3N(F)C([N+](=O)[O-])([N+](=O)[O-])N(F)N3C([N+](=O)[O-])([N+](=O)[O-])N1N1C([N+](=O)[O-])([N+](=O)[O-])N3N(F)C([N+](=O)[O-])([N+](=O)[O-])N(C#N)N3N12
+
+Molecule 5:
+Extended SMILES:  [N@@]123[N@@]4(N(O)O)[C@](F)(N(O)O)N14(F)[N@]12[N@]([F]1)[C@]1(N(O)O)N(F)N(F)[C@@]2(N(O)O)N(F)[N@]4N(F)[C@](F)(N(O)O)N(N(O)O)[N@@]4N(N(O)O)N(N(O)O)N(F)[C@@]2(N(O)O)N(F)N(F)[C@]1(N(O)O)N(F)[N@]1(N(O1)O)N3N(O)O
+
+Molecule 4:
+Extended SMILES: N12N([N+]([O-])=O)C(F)([N+]([O-])=O)N(F)N1N(F)C1([N+]([O-])=O)N(F)N(F)C3([N+]([O-])=O)N(F)N4N(F)C(F)([N+]([O-])=O)N([N+]([O-])=O)N4N([N+]([O-])=O)N([N+]([O-])=O)N(F)C3([N+]([O-])=O)N(F)N(F)C1([N+]([O-])=O)N(F)N([N+]([O-])=O)N2[N+]([O-])=O
+
+Molecule 3:
+Extended SMILES: [N+](N1OC2([N+]([O-])=O)NN3OC4([N+]([O-])=O)N(F)N(F)N(F)N(F)C4([N+]([O-])=O)ON3NC2([N+]([O-])=O)ON1[N+]([O-])=O)([O-])=O
+
+Molecule 2:
+Extended SMILES: C1([N+]([O-])=O)N([N+]([O-])=O)N=NC2N3N([N+]([O-])=O)N=NC(N(F)F)N([N+]([O-])=O)N(F)N3C2N([N+]([O-])=O)N1[N+]([O-])=O |c:8,16|
+
+Molecule 1:
+Extended SMILES: [N@]12ONNO[C@H]1[N@]1ONNO[N@]1[N@]1NN[C@@H]3[N@@]([N@]4N(NO)ONNO4)ONNO[N@]3[C@]21NNO
