@@ -168,9 +168,9 @@ Verify atom balance:
 
 ---
 
-## Your 10 Compounds: Predicted Products
+## 10 Compounds: Predicted Products
 
-Apply the algorithm to each:
+Applying the algorithm to each:
 
 ### **C₃H₃N₂₁O₁₀**
 
@@ -390,7 +390,7 @@ For **C₄HF₃N₁₉O₁₂** and **C₇F₄N₂₈O₁₈** (not enough H for
 - Remaining F → F₂ (unlikely but thermodynamically possible)
 - Compute scenario with F₂
 
-**Recommendation:** Compute BOTH scenarios for these compounds. Report the one with lower (more negative/favorable) ΔH as "most likely."
+**Recommended:** Compute BOTH scenarios for these compounds. Report the one with lower (more negative/favorable) ΔH as "most likely."
 
 ---
 
@@ -426,9 +426,9 @@ All balanced! ✓
 
 ---
 
-## For Your QE Calculations
+## For QE Calculations
 
-Once you have products, you need to compute:
+Once we have products, we need to compute:
 
 1. **E(monopropellant)** - Already have from your .xyz files ✓
 2. **E(N₂)** - Single N₂ molecule
