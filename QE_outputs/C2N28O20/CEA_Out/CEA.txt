@@ -1,0 +1,194 @@
+ *******************************************************************************
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA, OCTOBER 18, 2002
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ reac
+  name C2N19O2 C 2 N 19 O 2  wt=100.0
+  h,kj/mol=789  t(k)=298.15
+  
+ prob case=RocketCEA,
+  rocket equilibrium   p,psia=1000.000000,  supar=100.000000,
+  
+  
+  
+ output calories  transport
+ end
+
+ OPTIONS: TP=F  HP=F  SP=F  TV=F  UV=F  SV=F  DETN=F  SHOCK=F  REFL=F  INCD=F
+ RKT=T  FROZ=F  EQL=T  IONS=F  SIUNIT=F  DEBUGF=F  SHKDBG=F  DETDBG=F  TRNSPT=T
+
+ TRACE= 0.00E+00  S/R= 0.000000E+00  H/R= 0.000000E+00  U/R= 0.000000E+00
+
+ Pc,BAR =    68.947304
+
+ Pc/P =
+
+ SUBSONIC AREA RATIOS =
+
+ SUPERSONIC AREA RATIOS =   100.0000
+
+ NFZ=  1  Mdot/Ac= 0.000000E+00  Ac/At= 0.000000E+00
+
+    REACTANT          WT.FRAC   (ENERGY/R),K   TEMP,K  DENSITY
+        EXPLODED FORMULA
+ N: C2N19O2          1.000000   0.948943E+05   298.15  0.0000
+          C  2.00000  N 19.00000  O  2.00000
+
+  SPECIES BEING CONSIDERED IN THIS SYSTEM
+ (CONDENSED PHASE MAY HAVE NAME LISTED SEVERAL TIMES)
+  LAST thermo.inp UPDATE:    9/09/04
+
+  g 7/97  *C               g 8/99  *CN              g12/99  CNN            
+  tpis79  *CO              g 9/99  *CO2             tpis91  *C2            
+  g 7/00  CCN              tpis91  CNC              srd 01  OCCN           
+  tpis79  C2N2             g 8/00  C2O              tpis79  *C3            
+  srd 01  CNCOCN           g 7/88  C3O2             g tpis  *C4            
+  g 6/01  C4N2             g 8/00  *C5              g 5/97  *N             
+  g 6/01  NCO              tpis89  *NO              g 4/99  NO2            
+  j12/64  NO3              tpis78  *N2              g 6/01  NCN            
+  g 4/99  N2O              g 4/99  N2O3             tpis89  N2O4           
+  g 4/99  N2O5             tpis89  N3               g 5/97  *O             
+  tpis89  *O2              g 8/01  O3               n 4/83  C(gr)          
+  n 4/83  C(gr)            n 4/83  C(gr)          
+
+ SPECIES WITH TRANSPORT PROPERTIES
+
+        PURE SPECIES
+
+  C                 CO                CO2               C2N2            
+  N                 NO              
+  NO2               N2                N2O               N2O4            
+  O                 O2              
+
+     BINARY INTERACTIONS
+
+     C               O               
+     CO              CO2             
+     CO              N2              
+     CO              O2              
+     CO2             N2              
+     CO2             O2              
+     N               NO              
+     N               N2              
+     N               O               
+     N               O2              
+     NO              O               
+     N2              O               
+     N2              O2              
+     O               O2              
+
+
+ O/F =   0.000000
+
+                       EFFECTIVE FUEL     EFFECTIVE OXIDANT        MIXTURE
+ ENTHALPY                  h(2)/R              h(1)/R               h0/R
+ (KG-MOL)(K)/KG        0.29456801E+03      0.00000000E+00      0.29456801E+03
+
+ KG-FORM.WT./KG             bi(2)               bi(1)               b0i
+  *C                   0.62083362E-02      0.00000000E+00      0.62083362E-02
+  *N                   0.58979194E-01      0.00000000E+00      0.58979194E-01
+  *O                   0.62083362E-02      0.00000000E+00      0.62083362E-02
+
+ POINT ITN      T            C           N           O 
+   1   19    2864.133      -5.779     -12.084     -25.365
+ Pinf/Pt = 1.826345
+   2    3    2499.943      -4.504     -12.139     -27.420
+ Pinf/Pt = 1.828588
+   2    2    2499.247      -4.501     -12.139     -27.424
+   3    8     410.444      32.645     -13.452     -94.226
+ ADD  C(gr)          
+   3    8     703.411      -1.098     -13.832     -49.670
+   3    0     703.414      -1.098     -13.832     -49.670
+   3    4     728.183      -1.133     -13.723     -48.451
+   3    2     728.085      -1.133     -13.724     -48.456
+
+
+
+
+
+              THEORETICAL ROCKET PERFORMANCE ASSUMING EQUILIBRIUM
+
+           COMPOSITION DURING EXPANSION FROM INFINITE AREA COMBUSTOR
+
+ Pinj =  1000.0 PSIA
+ CASE = RocketCEA,     
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)      CAL/MOL       K  
+ NAME        C2N19O2                      1.0000000    188575.526    298.150
+
+ O/F=    0.00000  %FUEL=  0.000000  R,EQ.RATIO= 2.000000  PHI,EQ.RATIO= 0.000000
+
+                 CHAMBER   THROAT     EXIT
+ Pinf/P            1.0000   1.8286  1715.81
+ P, ATM            68.046   37.212  0.03966
+ T, K             2864.13  2499.25   728.08
+ RHO, G/CC       8.1106-3 5.0830-3 1.9978-5
+ H, CAL/G          585.37   470.72  -156.78
+ U, CAL/G          382.19   293.43  -204.85
+ G, CAL/G        -5157.08 -4540.15 -1616.55
+ S, CAL/(G)(K)     2.0050   2.0050   2.0050
+
+ M, (1/n)          28.013   28.013   30.097
+ MW, MOL WT        28.013   28.013   28.013
+ (dLV/dLP)t      -1.00001 -1.00001 -1.00850
+ (dLV/dLT)p        1.0000   1.0000   1.2427
+ Cp, CAL/(G)(K)    0.3155   0.3128   0.7259
+ GAMMAs            1.2900   1.2933   1.1520
+ SON VEL,M/SEC     1047.2    979.5    481.4
+ MACH NUMBER        0.000    1.000    5.177
+
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.84402  0.76590  0.33916
+
+  WITH EQUILIBRIUM REACTIONS
+
+ Cp, CAL/(G)(K)    0.3155   0.3128   0.2651
+ CONDUCTIVITY      0.3636   0.3242   0.1215
+ PRANDTL NUMBER    0.7325   0.7388   0.7396
+
+  WITH FROZEN REACTIONS
+
+ Cp, CAL/(G)(K)    0.3154   0.3127   0.2651
+ CONDUCTIVITY      0.3634   0.3242   0.1215
+ PRANDTL NUMBER    0.7325   0.7388   0.7396
+
+ PERFORMANCE PARAMETERS
+
+ Ae/At                     1.00000   100.00
+ CSTAR, FT/SEC              4543.5   4543.5
+ CF                         0.7073   1.7995
+ Ivac,LB-SEC/LB              177.1    262.3
+ Isp, LB-SEC/LB               99.9    254.1
+
+
+ MOLE FRACTIONS
+
+ *CN              0.00002  0.00000  0.00000
+ *CO              0.17386  0.17388  0.03539
+ *CO2             0.00003  0.00002  0.06926
+ C2N2             0.00001  0.00001  0.00000
+ *N2              0.82609  0.82609  0.82609
+ C(gr)            0.00000  0.00000  0.06926
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+    PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS
+    WERE LESS THAN 5.000000E-06 FOR ALL ASSIGNED CONDITIONS
+
+ *C              CNN             *C2             CCN             CNC            
+ OCCN            C2O             *C3             CNCOCN          C3O2           
+ *C4             C4N2            *C5             *N              NCO            
+ *NO             NO2             NO3             NCN             N2O            
+ N2O3            N2O4            N2O5            N3              *O             
+ *O2             O3             
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
