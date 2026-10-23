@@ -13,3 +13,8 @@ Current Focus:
 Because the computation of full DFT for screening large molecules is very high, I found a pipeline using xtb. By automating the conversion from Moldraw-generated SMILES to GFN2-xTB optimized geometries via Python, I found a quicker workflow to analyze bond vibration modes / energies
 
 If we want to go to Mars or build better aircraft, we need to understand the chemistry of propulsion at an atomic level.
+
+## About this repo
+This repo was originally made by me to just tweak and play around with other DFT codes (especially GPU4PySCF), but now it is home to my Quantum ESPRESSO Kaggle notebook as well as some interesting outputs I am accumulating over time alongside RocketCEA and Cantera Gas and Propellant analyses. My code is costantly in development, however my ```pw.x``` build so far works flawlessly and is calibrated/tested across a variety of systems. Clone it and change paths to local, an AMD fork is currently under development and will be added here once done and when it can be tested. This repo is specifically for people with workflow similar to mine:
+- Extract .xyz file from any method (eg using Avogadro/xTB)
+- Run Quantum ESPRESSO with minimal setup friction using fast setup methods for easy tweaking and checking
