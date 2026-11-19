@@ -18,3 +18,16 @@ If we want to go to Mars or build better aircraft, we need to understand the che
 This repo was originally made by me to just tweak and play around with other DFT codes (especially GPU4PySCF), but now it is home to my Quantum ESPRESSO Kaggle notebook as well as some interesting outputs I am accumulating over time alongside RocketCEA and Cantera Gas and Propellant analyses. My code is costantly in development, however my ```pw.x``` build so far works flawlessly and is calibrated/tested across a variety of systems. Clone it and change paths to local, an AMD fork is currently under development and will be added here once done and when it can be tested. This repo is specifically for people with workflow similar to mine:
 - Extract .xyz file from any method (eg using Avogadro/xTB)
 - Run Quantum ESPRESSO with minimal setup friction using fast setup methods for easy tweaking and checking
+
+## How to set up Quantum ESPRESSO
+<ol>
+  <li>Git clone or download as a zip</li>
+  <li>Unpack and follow the main .ipynb file (see Quantum_espresso_install_guide.ipynb) for instructions</li>
+  <li>Ensure you have the correct hardware for this build (needs NVIDIA GPUs, however most consumer cards wont suffice as they lack FP64 compute)</li>
+</ol>
+
+## How to help and next steps for anyone following
+<ol>
+  <li>Get native ROCm/HIP based build for QE</li>
+  <li>Help out with a GPU based version of CP2K for CUDA (assuming latest version), majorly for native Quickstep runs</li>
+</ol>
