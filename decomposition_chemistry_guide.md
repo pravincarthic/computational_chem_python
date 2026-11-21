@@ -1,4 +1,5 @@
-# Predicting Monopropellant Decomposition Products: Chemistry Guide
+# Predicting Monopropellant Decomposition Products
+### Note: RocketCEA already does most of the work, however this is just hypothesising and explaining why.
 
 ## Core Principle
 
@@ -63,7 +64,7 @@ Example (continued):
 └─ Continue to step 3...
 ```
 
-**Exception:** Only in extreme O-excess (rare for your compounds) might NO form, but assume N₂.
+**Exception:** Only in extreme O-excess (rare for my compounds) might NO form, but assume N₂.
 
 ---
 
@@ -82,7 +83,7 @@ Example: 6C + 24O available
 **If C ≤ O < 2C:**
 - Some C → CO₂, some C → CO
 - Example: 6C + 15O available
-  - Make 7.5 CO₂ uses 15O (but you only have 6C)
+  - Make 7.5 CO₂ uses 15O (but I only have 6C)
   - So: 6C + 12O → 6CO₂ (uses all 6C, 12O)
   - 3O left → 1.5 O₂
 
@@ -93,7 +94,7 @@ Example: 6C + 24O available
   - 5O allows 5CO
   - 1C left (doesn't form anything, stays as C)
 
-For your compounds: **They're all O-balanced or O-rich**, so assume CO₂.
+For my compounds: **They're all O-balanced or O-rich**, so assume CO₂.
 
 ---
 
@@ -105,14 +106,14 @@ For your compounds: **They're all O-balanced or O-rich**, so assume CO₂.
 - H → H₂O (with O)
 
 Example: Originally 12H, 12 used for HF → 0H remaining
-- If you had 12H and only 6F:
+- If I had 12H and only 6F:
   - 6H → 6HF
   - 6H remaining → 3H₂O
 
 **If H remaining but no O left:**
 - H → H₂
 
-This is rare for your compounds (O-rich), so usually → H₂O.
+This is rare for my compounds (O-rich), so usually → H₂O.
 
 ---
 
@@ -152,10 +153,6 @@ INPUT: Molecular formula (e.g., C₆H₁₂F₁₂N₃₂O₂₄)
 6. Oxygen → O₂:
    O2_formed = O_remaining / 2 = 12 / 2 = 6
    
-RESULT: 16 N₂ + 12 HF + 6 CO₂ + 6 H₂O + 6 O₂
-Wait, we had 0 H remaining, so 0 H₂O. Let me recalculate...
-
-Actually:
 RESULT: 16 N₂ + 12 HF + 6 CO₂ + 6 O₂
 
 Verify atom balance:
@@ -168,213 +165,6 @@ Verify atom balance:
 
 ---
 
-## 10 Compounds: Predicted Products
-
-Applying the algorithm to each:
-
-### **C₃H₃N₂₁O₁₀**
-
-```
-1. Extract: C=3, H=3, F=0, N=21, O=10
-
-2. F→HF: 0 HF, H_remaining = 3
-
-3. N→N₂: 21/2 = 10.5 N₂
-
-4. C→CO₂: 3C needs 6O, have 10O → 3 CO₂, O_left = 4
-
-5. H→H₂O: 3H → 1.5 H₂O, O_left = 4 - 1.5 = 2.5
-
-6. O→O₂: 2.5O → 1.25 O₂
-
-PRODUCTS: 10.5 N₂ + 3 CO₂ + 1.5 H₂O + 1.25 O₂
-```
-
-### **C₂N₂₂O₁₆**
-
-```
-1. Extract: C=2, H=0, F=0, N=22, O=16
-
-2. F→HF: 0 HF
-
-3. N→N₂: 22/2 = 11 N₂
-
-4. C→CO₂: 2C needs 4O, have 16O → 2 CO₂, O_left = 12
-
-5. H→H₂O: 0H → 0 H₂O
-
-6. O→O₂: 12O → 6 O₂
-
-PRODUCTS: 11 N₂ + 2 CO₂ + 6 O₂
-```
-
-### **C₂N₂₈O₂₀**
-
-```
-1. Extract: C=2, H=0, F=0, N=28, O=20
-
-2. F→HF: 0 HF
-
-3. N→N₂: 28/2 = 14 N₂
-
-4. C→CO₂: 2C needs 4O, have 20O → 2 CO₂, O_left = 16
-
-5. H→H₂O: 0H → 0 H₂O
-
-6. O→O₂: 16O → 8 O₂
-
-PRODUCTS: 14 N₂ + 2 CO₂ + 8 O₂
-```
-
-### **C₄H₈F₄N₁₆O₁₆**
-
-```
-1. Extract: C=4, H=8, F=4, N=16, O=16
-
-2. F→HF: 4 HF, H_remaining = 8-4 = 4
-
-3. N→N₂: 16/2 = 8 N₂
-
-4. C→CO₂: 4C needs 8O, have 16O → 4 CO₂, O_left = 8
-
-5. H→H₂O: 4H → 2 H₂O, O_left = 8-2 = 6
-
-6. O→O₂: 6O → 3 O₂
-
-PRODUCTS: 8 N₂ + 4 HF + 4 CO₂ + 2 H₂O + 3 O₂
-```
-
-### **C₄H₈F₅N₂₃O₁₆**
-
-```
-1. Extract: C=4, H=8, F=5, N=23, O=16
-
-2. F→HF: 5 HF, H_remaining = 8-5 = 3
-
-3. N→N₂: 23/2 = 11.5 N₂
-
-4. C→CO₂: 4C needs 8O, have 16O → 4 CO₂, O_left = 8
-
-5. H→H₂O: 3H → 1.5 H₂O, O_left = 8-1.5 = 6.5
-
-6. O→O₂: 6.5O → 3.25 O₂
-
-PRODUCTS: 11.5 N₂ + 5 HF + 4 CO₂ + 1.5 H₂O + 3.25 O₂
-```
-
-### **C₄HF₃N₁₉O₁₂**
-
-```
-1. Extract: C=4, H=1, F=3, N=19, O=12
-
-2. F→HF: 3 HF, H_remaining = 1-3 = -2 (PROBLEM!)
-   → Not enough H to make 3 HF. Only 1 H available.
-   → Only 1 HF forms, 2 F left over
-   
-   For this case: Some F can't find H, forms F₂ or stays unaccounted
-   → Assume 1 HF only (most likely scenario)
-   → H_remaining = 0, F_unaccounted = 2
-   
-   OR assume some flexibility: this is edge case, compute both scenarios
-
-   Scenario A (F→HF maximally):
-   1 HF, H_remaining = 0, F₂ = 1
-   
-3. N→N₂: 19/2 = 9.5 N₂
-
-4. C→CO₂: 4C needs 8O, have 12O → 4 CO₂, O_left = 4
-
-5. H→H₂O: 0H → 0 H₂O
-
-6. O→O₂: 4O → 2 O₂
-
-PRODUCTS (Scenario A): 9.5 N₂ + 1 HF + 4 CO₂ + 2 O₂ + 1 F₂
-(F₂ is unlikely, so maybe this compound has issues, or compute differently)
-
-Better approach: This might decompose to:
-9.5 N₂ + 4 CO₂ + 2 O₂ (ignore F, treat as leftover)
-OR compute scenarios with/without HF formation
-```
-
-### **C₅H₈F₃N₂₁O₁₆**
-
-```
-1. Extract: C=5, H=8, F=3, N=21, O=16
-
-2. F→HF: 3 HF, H_remaining = 8-3 = 5
-
-3. N→N₂: 21/2 = 10.5 N₂
-
-4. C→CO₂: 5C needs 10O, have 16O → 5 CO₂, O_left = 6
-
-5. H→H₂O: 5H → 2.5 H₂O, O_left = 6-2.5 = 3.5
-
-6. O→O₂: 3.5O → 1.75 O₂
-
-PRODUCTS: 10.5 N₂ + 3 HF + 5 CO₂ + 2.5 H₂O + 1.75 O₂
-```
-
-### **C₆H₁₂F₁₂N₃₂O₂₄**
-
-```
-1. Extract: C=6, H=12, F=12, N=32, O=24
-
-2. F→HF: 12 HF, H_remaining = 12-12 = 0
-
-3. N→N₂: 32/2 = 16 N₂
-
-4. C→CO₂: 6C needs 12O, have 24O → 6 CO₂, O_left = 12
-
-5. H→H₂O: 0H → 0 H₂O
-
-6. O→O₂: 12O → 6 O₂
-
-PRODUCTS: 16 N₂ + 12 HF + 6 CO₂ + 6 O₂
-```
-
-### **C₇F₄N₂₈O₁₈**
-
-```
-1. Extract: C=7, H=0, F=4, N=28, O=18
-
-2. F→HF: No H available! 
-   → 0 HF, but 4 F leftover (forms F₂? Stays unaccounted?)
-   → Likely scenario: F stays bonded to C or just ignore
-   → Conservative: Compute without F products
-
-3. N→N₂: 28/2 = 14 N₂
-
-4. C→CO₂: 7C needs 14O, have 18O → 7 CO₂, O_left = 4
-
-5. H→H₂O: 0H → 0 H₂O
-
-6. O→O₂: 4O → 2 O₂
-
-PRODUCTS (ignoring F): 14 N₂ + 7 CO₂ + 2 O₂
-
-Alternative if F₂ forms:
-14 N₂ + 7 CO₂ + 2 O₂ + 2 F₂
-
-Recommend: Compute both scenarios
-```
-
----
-
-## Summary Table: Predicted Products
-
-| Compound | Scenario | Products |
-|----------|----------|----------|
-| C₃H₃N₂₁O₁₀ | Standard | 10.5 N₂ + 3 CO₂ + 1.5 H₂O + 1.25 O₂ |
-| C₂N₂₂O₁₆ | O-rich | 11 N₂ + 2 CO₂ + 6 O₂ |
-| C₂N₂₈O₂₀ | O-rich | 14 N₂ + 2 CO₂ + 8 O₂ |
-| C₄H₈F₄N₁₆O₁₆ | With HF | 8 N₂ + 4 HF + 4 CO₂ + 2 H₂O + 3 O₂ |
-| C₄H₈F₅N₂₃O₁₆ | With HF | 11.5 N₂ + 5 HF + 4 CO₂ + 1.5 H₂O + 3.25 O₂ |
-| C₄HF₃N₁₉O₁₂ | H-limited | See note (edge case) |
-| C₅H₈F₃N₂₁O₁₆ | With HF | 10.5 N₂ + 3 HF + 5 CO₂ + 2.5 H₂O + 1.75 O₂ |
-| C₆H₁₂F₁₂N₃₂O₂₄ | With HF | 16 N₂ + 12 HF + 6 CO₂ + 6 O₂ |
-| C₇F₄N₂₈O₁₈ | H-limited | See note (edge case) |
-
----
 
 ## Edge Cases: H-Limited Compounds
 
@@ -430,7 +220,7 @@ All balanced! ✓
 
 Once we have products, we need to compute:
 
-1. **E(monopropellant)** - Already have from your .xyz files ✓
+1. **E(monopropellant)** - Already have from my .xyz files ✓
 2. **E(N₂)** - Single N₂ molecule
 3. **E(HF)** - Single HF molecule
 4. **E(CO₂)** - Single CO₂ molecule
@@ -444,4 +234,4 @@ Then: ΔH_decomp = Σ(E_products) - E(monopropellant)
 
 Most negative ΔH = most exothermic = thermodynamically favored.
 
-EOF
+# Predicted Products and Ratios will be there in the **CEA output**
