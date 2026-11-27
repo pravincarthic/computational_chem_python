@@ -1,14 +1,11 @@
 phonopy:
-  version: "4.8.1"
+  version: "4.11.0"
   calculator: qe
   frequency_unit_conversion_factor: 108.970772
   symmetry_tolerance: 1.00000e-05
   configuration:
-    atom_name: "C F N O"
-    dim: "1 1 1"
-    mesh: "1 1 1"
-    force_sets: "READ"
-    qpoints: "0 0 0"
+    mesh_numbers: "1 1 1"
+    tprop: ".true."
 
 physical_unit:
   atomic_mass: "AMU"
